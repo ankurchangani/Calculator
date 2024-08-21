@@ -37,7 +37,7 @@ const Calc = () => {
                     <button onClick={() => handleClick('4')}>4</button>
                     <button onClick={() => handleClick('5')}>5</button>
                     <button onClick={() => handleClick('6')}>6</button>
-                    <button id="plus" onClick={() => handleClick('==')}>+</button>
+                    <button id="plus" onClick={() => handleClick('+')}>+</button>
                     <button onClick={() => handleClick('1')}>1</button>
                     <button onClick={() => handleClick('2')}>2</button>
                     <button onClick={() => handleClick('3')}>3</button>
